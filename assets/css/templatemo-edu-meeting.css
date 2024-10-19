@@ -828,7 +828,7 @@ services
 }
 
 .services .item .icon {
-  max-width: 60px;
+  max-width: 120px;
   margin: 0 auto;
 }
 
@@ -930,7 +930,7 @@ div.services-bg {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 160px;
 }
 
 /*
@@ -1210,7 +1210,7 @@ responsive
   }
 
   .services {
-    margin-top: 60px;
+    margin-top: -60px;
   }
 
   .accordions {
@@ -1229,6 +1229,9 @@ responsive
   section.contact-us #contact {
     margin-bottom: 30px;
   }
+  div.services-bg {
+    padding-top: 220px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1246,5 +1249,9 @@ responsive
 
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
+  }
+
+  div.services-bg {
+    padding-top: 200px;
   }
 }
