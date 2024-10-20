@@ -829,6 +829,7 @@ services
 
 .services .item .icon {
   max-width: 120px;
+  height: 100px;
   margin: 0 auto;
 }
 
@@ -930,7 +931,7 @@ div.services-bg {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 160px;
+  padding-top: 200px;
 }
 
 /*
@@ -1230,7 +1231,7 @@ responsive
     margin-bottom: 30px;
   }
   div.services-bg {
-    padding-top: 220px;
+    padding-top: 280px;
   }
 }
 
@@ -1252,6 +1253,9 @@ responsive
   }
 
   div.services-bg {
-    padding-top: 200px;
+    padding-top: 320px;
+  }
+  .teacher-report-logo-txt {
+    font-size: 25px !important;
   }
 }
